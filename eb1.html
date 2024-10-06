@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meznah Hamoud Al-Baladi - Personal Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cssweb.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Meznah Al-Baladi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certificates">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Info</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Resume</h1>
+            <div class="header-info">
+                <p>Name: Meznah Hamoud Al-Baladi</p>
+                <p>(2211333)</p>
+                <p>Graduating with First-Class Honors in Cybersecurity</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div style="display: flex; align-items: center;">
+                <p style="flex: 1;">Hello! I am a fourth-year student at Jeddah University, majoring in Cybersecurity with a GPA of 4.75 and First-Class Honors. My aim is to excel in my field and make a positive impact through innovative solutions in cybersecurity.</p>
+                <img src="n3.jpg" alt="Identity Card" style="width: 300px; height: auto; border-radius: 5px; margin-left: 20px;">
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Jeddah University</strong> - Bachelor's in Cybersecurity (2019 - Present), GPA: 4.75, First-Class Honors</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Cybersecurity Certificate from "From Student to Executive Leader" (Digital Giving Platform) <button type="button" class="btn btn-link" data-toggle="modal" data-target="#certificate1">View Certificate</button></li>
+                <li>Artificial Intelligence in Education (Technical Transformation Platform) <button type="button" class="btn btn-link" data-toggle="modal" data-target="#certificate2">View Certificate</button></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Secure Data Encryption Tool</h3>
+                <p>This project involves the implementation of encryption algorithms to secure sensitive data.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Network Security Assessment</h3>
+                <p>A network security analysis tool that evaluates the strength of network configurations against various vulnerabilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Info</h2>
+            <p>Phone: 0567881423</p>
+            <p>Email: <a href="mailto:2211333@uj.edu.sa">2211333@uj.edu.sa</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Meznah Al-Baladi</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Certificate 1 -->
+    <div class="modal fade" id="certificate1" tabindex="-1" role="dialog" aria-labelledby="certificate1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="certificate1Label">Certificate of Cybersecurity</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="n1.jpg" alt="Certificate 1" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Certificate 2 -->
+    <div class="modal fade" id="certificate2" tabindex="-1" role="dialog" aria-labelledby="certificate2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="certificate2Label">Certificate of Artificial Intelligence</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="n2.jpg" alt="Certificate 2" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
